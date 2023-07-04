@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class 같은숫자는싫어 {
+public class Solution {
 
   public int[] solution(int []arr) {
     Stack<Integer> stack = new Stack<>();
