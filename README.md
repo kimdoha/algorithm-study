@@ -32,7 +32,7 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.1] 같은 숫자는 싫어</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 기능 개발</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 올바른 괄호</a><br>
-      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 프로세스</a>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 프로세스**</a>
     </td>
   	 <td align="center">
        <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
