@@ -43,7 +43,7 @@
      </td>
      <td align="center">Stack / Queue</td>
   </tr>
-     <tr>
+  <tr>
     <td align="center">
       12906
       42746
@@ -58,6 +58,31 @@
        <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
      </td>
      <td align="center">정렬</td>
+  </tr>
+  <td align="center" colspan="4">Week 2</td>
+    <tr>
+    <td align="center">
+      86491
+      42840
+      42839
+      42842
+      87946
+      86971
+      84512
+    </td>
+    <td align="left">
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86491">[Lv.1] 최소직사각형</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42840">[Lv.1] 모의고사</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42839">[Lv.2] 소수 찾기</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42842">[Lv.2] 카펫</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/87946">[Lv.2] 피로도</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86971">[Lv.2] 전력망을 둘로 나누기</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/84512">[Lv.2] 모음사전</a><br>
+    </td>
+  	<td align="center">
+       <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+    </td>
+    <td align="center">완전탐색</td>
   </tr>
   
 </table>
