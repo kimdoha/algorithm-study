@@ -35,7 +35,7 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 기능 개발</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 올바른 괄호</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 프로세스**</a><br>
-      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583">[Lv.2] 다리를 지나는 트럭</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583">[Lv.2] 다리를 지나는 트럭**</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584">[Lv.2] 주식가격</a>
     </td>
   	 <td align="center">
