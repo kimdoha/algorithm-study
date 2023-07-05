@@ -41,7 +41,7 @@
   	 <td align="center">
        <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
      </td>
-     <td align="center">Stack / Queue</td>
+     <td align="center">스택 / 큐</td>
   </tr>
   <tr>
     <td align="center">
@@ -60,15 +60,14 @@
      <td align="center">정렬</td>
   </tr>
   <td align="center" colspan="4">Week 2</td>
-      <tr>
+    <tr>
     <td align="center">
       42576
-      42840
+      1845
       42839
-      42842
-      87946
-      86971
-      84512
+      42577
+      42578
+      42579
     </td>
     <td align="left">
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42576">[Lv.1] 완주하지 못한 선수</a><br>
@@ -81,6 +80,21 @@
        <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
     </td>
     <td align="center">해시</td>
+    </tr>
+    <tr>
+    <td align="center">
+      42626
+      42627
+      42628
+    </td>
+    <td align="left">
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42626">[Lv.2] 더 맵게</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42627">[Lv.3] 디스크 컨트롤러</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42628">[Lv.3] 이중우선순위큐</a><br>
+  	<td align="center">
+       <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+    </td>
+    <td align="center">힙(Heap)</td>
   </tr>
   <td align="center" colspan="4">Week 3</td>
   <tr>
