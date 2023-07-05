@@ -60,7 +60,30 @@
      <td align="center">정렬</td>
   </tr>
   <td align="center" colspan="4">Week 2</td>
-    <tr>
+      <tr>
+    <td align="center">
+      42576
+      42840
+      42839
+      42842
+      87946
+      86971
+      84512
+    </td>
+    <td align="left">
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42576">[Lv.1] 완주하지 못한 선수</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1845">[Lv.1] 폰켓몬</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42577">[Lv.2] 전화번호 목록</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42578">[Lv.2] 의상</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42579">[Lv.2] 베스트앨범</a><br>
+    </td>
+  	<td align="center">
+       <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+    </td>
+    <td align="center">해시</td>
+  </tr>
+  <td align="center" colspan="4">Week 3</td>
+  <tr>
     <td align="center">
       86491
       42840
