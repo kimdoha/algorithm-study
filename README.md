@@ -55,7 +55,7 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42747">[Lv.2] H-Index</a><br>
     </td>
   	 <td align="center">
-       <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+       <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/sort">Link</a>
      </td>
      <td align="center">정렬</td>
   </tr>
