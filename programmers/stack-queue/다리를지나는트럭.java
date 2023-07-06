@@ -16,15 +16,16 @@ class Solution {
   int solution(int bridge_length, int weight, int[] truck_weights) {
 
     Queue<Truck> queue = new LinkedList<>();
-    
     int current_weight = 0;
     int index = 0;
-    int time = 0;
+    int current_time = 0;
 
     while (index < truck_weights.length) {
-      time++;
+      current_time++;
 
-      if(!queue.isEmpty() && time - queue.peek().time == bridge_length) {
+      if(!queue.isEmpty() && 
+         current_time - queue.peek().time == bridge_length
+      ){
         Truck truck = queue.poll();
         current_weight -= truck.weight;
       }
@@ -33,10 +34,10 @@ class Solution {
         continue;
 
       current_weight += truck_weights[index];
-      queue.add(new Truck(truck_weights[index], time));
+      queue.add(new Truck(truck_weights[index], current_time));
       index++;
     }
 
-    return time + bridge_length;
+    return current_time + bridge_length;
   }
 }
