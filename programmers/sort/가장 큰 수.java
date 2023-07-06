@@ -4,16 +4,14 @@ class Solution {
 
   static class Elem implements Comparable<Elem> {
     String num;
+      
     @Override
     public int compareTo(Elem o) {
       return (o.num+num).compareTo(num+o.num);
     }
   }
 
-
-
   public String solution(int[] numbers) {
-    String answer = "";
     Elem[] elms = new Elem[numbers.length];
 
     int zero_count = 0;
@@ -26,9 +24,14 @@ class Solution {
     if(zero_count == numbers.length) return "0";
 
     Arrays.sort(elms);
+
+    StringBuilder answer = new StringBuilder();
+    
     for(Elem elem : elms) {
-      answer += elem.num;
+      answer.append(elem.num);
     }
-    return answer;
+    
+    return answer.toString();
   }
+    
 }
