@@ -52,7 +52,7 @@
     <td align="left">
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42748">[Lv.1] K번째수</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42746">[Lv.2] 가장 큰 수</a><br>
-      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42747">[Lv.2] H-Index</a><br>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42747">[Lv.2] H-Index**</a><br>
     </td>
   	 <td align="center">
        <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/sort">Link</a>
