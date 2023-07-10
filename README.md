@@ -77,7 +77,7 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42579">[Lv.2] 베스트앨범</a><br>
     </td>
   	<td align="center">
-       <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+       <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/hash">Link</a>
     </td>
     <td align="center">해시</td>
     </tr>
