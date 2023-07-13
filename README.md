@@ -36,7 +36,7 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 올바른 괄호</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">[Lv.2] 프로세스**</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583">[Lv.2] 다리를 지나는 트럭**</a><br>
-      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584">[Lv.2] 주식가격</a>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584">[Lv.2] 주식가격</a><br>
     </td>
   	 <td align="center">
        <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
@@ -121,5 +121,35 @@
     </td>
     <td align="center">완전탐색</td>
   </tr>
-  
+  <tr>
+  <td align="center">
+    43238
+    43236
+  </td>
+  <td align="left">
+    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43238">[Lv.3] 입국심사</a><br>
+    <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43236">[Lv.4] 징검다리</a><br>
+  </td>
+  <td align="center">
+     <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+  </td>
+  <td align="center">이분탐색</td>
+</tr>
+<td align="center" colspan="4">Week 4</td>
+<tr>
+<td align="center">
+49189
+49191
+49190  
+</td>
+<td align="left">
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49189">[Lv.3] 가장 먼 노드</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49191">[Lv.3] 순위</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49190">[Lv.5] 방의 개수</a><br>
+</td>
+<td align="center">
+   <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+</td>
+<td align="center">그래프</td>
+</tr>
 </table>
