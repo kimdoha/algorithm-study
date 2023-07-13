@@ -92,7 +92,7 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42627">[Lv.3] 디스크 컨트롤러</a><br>
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42628">[Lv.3] 이중우선순위큐</a><br>
   	<td align="center">
-       <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+       <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/heap">Link</a>
     </td>
     <td align="center">힙(Heap)</td>
   </tr>
@@ -146,6 +146,31 @@
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49189">[Lv.3] 가장 먼 노드</a><br>
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49191">[Lv.3] 순위</a><br>
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49190">[Lv.5] 방의 개수</a><br>
+</td>
+<td align="center">
+   <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+</td>
+<td align="center">그래프</td>
+</tr>
+<tr>
+<td align="center">
+43165
+43162
+1844
+43163
+43164
+87694
+84021
+</td>
+<td align="left">
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165">[Lv.2] 타겟 넘버</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43162">[Lv.3] 네트워크</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1844">[Lv.2] 게임 맵 최단거리</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43163">[Lv.3] 단어 변환</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43164">[Lv.3] 여행경로</a><br>
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/87694">[Lv.3] 아이템 줍기</a><br>  
+  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/84021">[Lv.3] 퍼즐 조각 채우기</a><br>
+</a><br>  
 </td>
 <td align="center">
    <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
