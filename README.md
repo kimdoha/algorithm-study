@@ -62,12 +62,11 @@
   <td align="center" colspan="4">Week 2</td>
     <tr>
     <td align="center">
-      42576
+      42576<br>
       1845<br>
-      42839
-      42577
-      42578
-      42579
+      42577<br>
+      42578<br>
+      42579<br>
     </td>
     <td align="left">
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42576">[Lv.1] 완주하지 못한 선수</a><br>
@@ -154,13 +153,13 @@
 </tr>
 <tr>
 <td align="center">
-43165
-43162
+43165<br>
+43162<br>
 1844<br>
-43163
-43164
-87694
-84021
+43163<br>
+43164<br>
+87694<br>
+84021<br>
 </td>
 <td align="left">
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165">[Lv.2] 타겟 넘버</a><br>
@@ -176,5 +175,28 @@
    <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
 </td>
 <td align="center">깊이/너비 우선 탐색(DFS/BFS)</td>
+</tr>
+<td align="center" colspan="4">Week 5</td>
+<tr>
+<td align="center">
+42862<br>
+42860<br>
+42883<br>
+42861<br>
+42884<br>
+</td>
+<td align="left">
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42862">[Lv.1] 체육복</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42860">[Lv.2] 조이스틱</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42883">[Lv.2] 큰 수 만들기</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42885">[Lv.2] 구멍보트</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42861">[Lv.3] 섬 연결하기</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42884">[Lv.3] 단속카메라</a><br>  
+</a><br>  
+</td>
+<td align="center">
+ <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+</td>
+<td align="center">탐욕법(Greedy)</td>
 </tr>
 </table>
