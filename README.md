@@ -63,7 +63,7 @@
     <tr>
     <td align="center">
       42576
-      1845
+      1845<br>
       42839
       42577
       42578
@@ -156,7 +156,7 @@
 <td align="center">
 43165
 43162
-1844
+1844<br>
 43163
 43164
 87694
@@ -175,6 +175,6 @@
 <td align="center">
    <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
 </td>
-<td align="center">그래프</td>
+<td align="center">깊이/너비 우선 탐색(DFS/BFS)</td>
 </tr>
 </table>
