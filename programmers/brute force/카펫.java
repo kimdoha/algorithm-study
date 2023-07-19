@@ -10,8 +10,8 @@ class Solution {
             int row = yellow / col;
 
             if(yellow % n == 0 && col >= row) {
-            yellow_col = col;
-            yellow_row = row;
+                yellow_col = col;
+                yellow_row = row;
             }
 
             brown_row = yellow_row + 2;
