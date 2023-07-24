@@ -8,7 +8,7 @@ public int determination(int[] rocks, int mid, int end) {
 
     for(int i = 0; i < rocks.length; i++) {
       if(rocks[i] - prev < mid) {
-        removeRockCount++; //
+        removeRockCount++;
       } else {
         prev = rocks[i];
       }
