@@ -199,11 +199,11 @@
 </tr>
 <tr>
 <td align="center">
-42895<br>
+42895
 43105<br>
 1843<br>
-42898<br>
-42897<br>
+42898
+42897
 </td>
 <td align="left">
 <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42895">[Lv.3] N으로 표현</a><br>
@@ -216,6 +216,6 @@
 <td align="center">
  <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
 </td>
-<td align="center">탐욕법(Greedy)</td>
+<td align="center">동적계획법(Dynamic Programming)</td>
 </tr>
 </table>
