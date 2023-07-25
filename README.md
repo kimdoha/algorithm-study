@@ -197,4 +197,25 @@
 </td>
 <td align="center">탐욕법(Greedy)</td>
 </tr>
+<tr>
+<td align="center">
+42895<br>
+43105<br>
+1843<br>
+42898<br>
+42897<br>
+</td>
+<td align="left">
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42895">[Lv.3] N으로 표현</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/43105">[Lv.3] 정수 삼각형</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/1843">[Lv.4] 사칙연산</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42898">[Lv.3] 등굣길</a><br>
+<a href="https://school.programmers.co.kr/learn/courses/30/lessons/42897">[Lv.4] 도둑질</a><br>
+</a><br>  
+</td>
+<td align="center">
+ <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+</td>
+<td align="center">탐욕법(Greedy)</td>
+</tr>
 </table>
