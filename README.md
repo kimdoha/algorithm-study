@@ -139,7 +139,6 @@
 <td align="center">
 49189
 49191
-49190  
 </td>
 <td align="left">
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49189">[Lv.3] 가장 먼 노드</a><br>
