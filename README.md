@@ -130,7 +130,7 @@
     <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43236">[Lv.4] 징검다리</a><br>
   </td>
   <td align="center">
-     <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+     <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/binary%20search">Link</a>
   </td>
   <td align="center">이분탐색</td>
 </tr>
@@ -145,7 +145,7 @@
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49191">[Lv.3] 순위</a><br>
 </td>
 <td align="center">
-   <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+   <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/graph">Link</a>
 </td>
 <td align="center">그래프</td>
 </tr>
