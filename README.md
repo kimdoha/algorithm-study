@@ -157,7 +157,6 @@
 43163<br>
 43164<br>
 87694<br>
-84021<br>
 </td>
 <td align="left">
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165">[Lv.2] 타겟 넘버</a><br>
@@ -166,11 +165,10 @@
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43163">[Lv.3] 단어 변환</a><br>
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43164">[Lv.3] 여행경로</a><br>
   <a href="https://school.programmers.co.kr/learn/courses/30/lessons/87694">[Lv.3] 아이템 줍기</a><br>  
-  <a href="https://school.programmers.co.kr/learn/courses/30/lessons/84021">[Lv.3] 퍼즐 조각 채우기</a><br>
 </a><br>  
 </td>
 <td align="center">
-   <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+   <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/dfs%20bfs">Link</a>
 </td>
 <td align="center">깊이/너비 우선 탐색(DFS/BFS)</td>
 </tr>
@@ -193,7 +191,7 @@
 </a><br>  
 </td>
 <td align="center">
- <a href="https://github.com/kimdoha/Algorithm-Study/tree/main/programmers/stack-queue">Link</a>
+ <a href="https://github.com/kimdoha/algorithm-study/tree/main/programmers/greedy">Link</a>
 </td>
 <td align="center">탐욕법(Greedy)</td>
 </tr>
