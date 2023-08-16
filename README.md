@@ -7,6 +7,7 @@
 > [Programmers](https://school.programmers.co.kr/learn/challenges)
 
 <br>
+https://github.com/SSAFY-10th-Seoul17/algorithm_ssafy
 
 ## ✏️ Solutions
 <details>
