@@ -5,19 +5,6 @@ import java.io.InputStreamReader;
 public class Main {
   static StringBuilder sb = new StringBuilder();
 
-  static int extractOperator(String expression) {
-    int op_index = expression.length() - 1;
-
-    while(op_index >= 0) {
-      char current = expression.charAt(op_index);
-      if(current == '+' || current == '-') {
-        break;
-      }
-      op_index--;
-    }
-    return op_index;
-  }
-
   static void makeZero(int n, int k, int num, int sign, int sum, String expression) {
 
     if(k == n) {
