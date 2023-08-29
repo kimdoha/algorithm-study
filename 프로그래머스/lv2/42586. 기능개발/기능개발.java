@@ -21,7 +21,6 @@ class Solution {
         }
         
         // 2. 각 배포마다 몇 개의 기능이 배포 되는지 계산
-        int i = 0;
         while(que.size() > 0) {
             
             int currentWorkDay = que.poll();
