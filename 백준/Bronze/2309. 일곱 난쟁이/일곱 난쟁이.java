@@ -40,7 +40,6 @@ public class Main {
     for(int i = 1; i <= N; i++) {
       dwarfs[i] = Integer.parseInt(br.readLine());
     }
-    Arrays.sort(dwarfs);
 
     dfs(1, 0);
 
