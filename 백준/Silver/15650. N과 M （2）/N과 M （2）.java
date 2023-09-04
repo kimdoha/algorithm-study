@@ -9,16 +9,16 @@ public class Main {
     static boolean[] visited;
     static StringBuilder sb = new StringBuilder();
 
-    static void rec_func(int k, int start) {
+    static void rec_func(int k) {
       if(k == M + 1) {
         for(int i = 1; i <= M; i++) sb.append(selected[i]).append(" ");
         sb.append("\n");
       } else {
-        for(int cand = start; cand <= N; cand++) {
+        for(int cand = selected[k - 1] + 1; cand <= N; cand++) {
           if(!visited[cand]) {
             selected[k] = cand;
             visited[cand] = true;
-            rec_func(k + 1, cand + 1);
+            rec_func(k + 1);
             selected[k] = 0;
             visited[cand] = false;
           }
@@ -36,7 +36,7 @@ public class Main {
       visited = new boolean[N + 1];
       selected = new int[M + 1];
 
-      rec_func(1, 1);
+      rec_func(1);
       System.out.println(sb.toString());
     }
 }
