@@ -32,12 +32,11 @@ public class Main {
             int[] moveList = {cur.x - 1, cur.x + 1, cur.x * 2};
             
             for(int move : moveList) {
-                if(move < 0 || move > 100000) continue;
-                
-                if(!visited[move]) {
-                    que.add(new Location(move, cur.time + 1));
-                    visited[move] = true;
-                }
+                if(move < 0 || move > 100000) continue; // 1. 이동 범위를 벗어난 경우
+                if(visited[move]) continue; // 2. 이미 방문한 경우
+ 
+                que.add(new Location(move, cur.time + 1));
+                visited[move] = true;
             }
         }
     }
