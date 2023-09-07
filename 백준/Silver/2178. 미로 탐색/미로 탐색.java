@@ -4,6 +4,7 @@ import java.util.*;
 public class Main {
     static int N, M;
     static int[][] map;
+    static int[][] dist;
     static boolean[][] visited;
     static int[][] dxdy = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     
@@ -18,7 +19,9 @@ public class Main {
     
     static void bfs(Location start) {
         Queue<Location> que = new LinkedList<>();
+        
         que.add(start);
+        dist[start.x][start.y] = 1;
         visited[start.x][start.y] = true;
         
         while(!que.isEmpty()) {
@@ -33,8 +36,8 @@ public class Main {
                 if(map[tx][ty] == 0) continue; // 3. 이동할 수 없는 칸인 경우
                 
                 que.add(new Location(tx,ty));
+                dist[tx][ty] = dist[cur.x][cur.y] + 1;
                 visited[tx][ty] = true;
-                map[tx][ty] = map[cur.x][cur.y] + 1;
             }
         }
     }
@@ -46,6 +49,7 @@ public class Main {
         M = Integer.parseInt(st.nextToken());
         
         map = new int[N][M];
+        dist = new int[N][M];
         visited = new boolean[N][M];
         
         for(int i = 0; i < N; i++) {
@@ -55,7 +59,7 @@ public class Main {
             }
         }
         
-        bfs(new Location(0,0));
-        System.out.println(map[N - 1][M - 1]);
+        bfs(new Location(0, 0));
+        System.out.println(dist[N - 1][M - 1]);
     }
 }
