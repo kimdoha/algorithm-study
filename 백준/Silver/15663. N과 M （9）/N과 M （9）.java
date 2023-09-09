@@ -1,40 +1,31 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
+
 
 public class Main {
   static int N, M;
   static int[] numbers, selected;
   static boolean[] visited;
-  static HashSet<String> set = new HashSet<>();
   static StringBuilder sb = new StringBuilder();
 
   static void rec_func(int k) {
     if(k == M + 1) {
-      String selectedNum = "";
-      for(int i = 1; i <= M; i++) {
-        selectedNum += selected[i] + " ";
-      }
-
-      if(!set.contains(selectedNum)) {
-        set.add(selectedNum);
-        sb.append(selectedNum).append("\n");
-      }
+      for(int i = 1; i <= M; i++) sb.append(selected[i]).append(" ");
+      sb.append("\n");
     } else {
+      int lastNum = 0;
       for(int i = 1; i <= N; i++) {
-        if(!visited[i]) {
-          selected[k] = numbers[i];
-          visited[i] = true;
+        if(visited[i]) continue;
+        if(lastNum == numbers[i]) continue;
+          
+          selected[k] = numbers[i]; visited[i] = true;
+          lastNum = numbers[i];
           rec_func(k + 1);
-          selected[k] = 0;
-          visited[i] = false;
+          selected[k] = 0; visited[i] = false;
         }
-      }
-    }
+     }
   }
+ 
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
