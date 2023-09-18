@@ -8,8 +8,8 @@ public class Main {
     static boolean[] visited;
 
     
-    static void rec_func(int start, int depth) {
-        if(depth == teamNum + 1) {
+    static void rec_func(int k, int start) {
+        if(k == teamNum + 1) {
             int startPower = 0, linkPower = 0;
             
             for(int i = 1; i < N; i++) {
@@ -28,7 +28,7 @@ public class Main {
                 if(visited[cand]) continue;
                 
                 visited[cand] = true;
-                rec_func(cand + 1, depth + 1);
+                rec_func(k + 1, cand + 1);
                 visited[cand] = false;
             }
         }
