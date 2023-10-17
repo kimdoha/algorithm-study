@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-   static class Elem implements Comparable<Elem> {
+  static class Elem implements Comparable<Elem> {
     public int idx;
     public int gold, silver, bronze;
     public int rank;
@@ -23,14 +23,18 @@ public class Main {
     public int compareTo(Elem o) {
       if(gold != o.gold) return o.gold - gold;
       else if(silver != o.silver) return o.silver - silver;
-      else if(bronze != o.bronze) return o.bronze - bronze;
-      else return idx - o.idx;
+      return o.bronze - bronze;
     }
   }
 
   static Elem[] countries;
   static int N, K;
 
+  static boolean isException(Elem o1, Elem o2) {
+    return o1.gold == o2.gold &&
+        o1.silver == 0 && o2.silver == 0 &&
+        o1.bronze == 0 && o2.bronze == 0;
+  }
 
   static boolean isSame(Elem o1, Elem o2) {
     return o1.gold == o2.gold && o1.silver == o2.silver && o1.bronze == o2.bronze;
@@ -40,7 +44,9 @@ public class Main {
     countries[0].setElemRank(1);
 
     for(int i = 1; i < N; i++) {
-      if(isSame(countries[i - 1], countries[i])) {
+      if(isException(countries[i - 1], countries[i])) {
+        countries[i].rank = countries[i - 1].rank + 1;
+      } else if(isSame(countries[i - 1], countries[i])) {
         countries[i].rank = countries[i - 1].rank;
       } else {
         countries[i].rank = countries[i - 1].rank + 1;
