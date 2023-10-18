@@ -3,38 +3,32 @@ import java.util.*;
 
 public class Main {
     static int N, M, V;
-    static int u, v;
     static ArrayList<Integer>[] graph;
-    static boolean[] visited;
-    
     static StringBuilder sb = new StringBuilder();
     
-    static void dfs(int x) {
+    static void dfs(int x, boolean[] visited) {
         visited[x] = true;
         sb.append(x).append(" ");
         
         for(int y : graph[x]) {
             if(visited[y]) continue;
-            dfs(y);
+            dfs(y, visited);
         }
     }
     
-    
-    static void bfs(int x) {
+    static void bfs(int x, boolean[] visited) {
         Queue<Integer> que = new LinkedList<>();
         que.add(x);
         visited[x] = true;
-        sb.append(x).append(" ");
         
         while(!que.isEmpty()) {
-            int poll = que.poll();
+            int cur = que.poll();
+            sb.append(cur).append(" ");
             
-            for(int y : graph[poll]) {
+            for(int y : graph[cur]) {
                 if(visited[y]) continue;
-                
                 que.add(y);
                 visited[y] = true;
-                sb.append(y).append(" ");
             }
         }
     }
@@ -49,29 +43,25 @@ public class Main {
         
         graph = new ArrayList[N + 1];
         for(int i = 1; i <= N; i++) {
-            graph[i] = new ArrayList<Integer>();
+            graph[i] = new ArrayList<>();    
         }
         
-        while(M --> 0) {
+        for(int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            u = Integer.parseInt(st.nextToken());
-            v = Integer.parseInt(st.nextToken());
-            graph[u].add(v);
-            graph[v].add(u);
+            int v1 = Integer.parseInt(st.nextToken());
+            int v2 = Integer.parseInt(st.nextToken());
+            
+            graph[v1].add(v2);
+            graph[v2].add(v1);
         }
         
-        for(int i = 1; i <= N; i++) {
+           for(int i = 1; i <= N; i++) {
             Collections.sort(graph[i]);
         }
         
-        visited = new boolean[N + 1];
-        dfs(V);
-        sb.append("\n");
+        dfs(V, new boolean[N + 1]); sb.append("\n");
+        bfs(V, new boolean[N + 1]); sb.append("\n");
         
-        visited = new boolean[N + 1];
-        bfs(V);
         System.out.println(sb.toString());
-        
-
     }
 }
