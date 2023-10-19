@@ -22,7 +22,7 @@ public class Main {
     int L = 1, R = budgets[N - 1];
     while(L < R) {
       int M = (L + R) / 2;
-      // System.out.printf( "%d %d\n", L, R );
+
       if(determination(M)) {
         maxBudget = M;
         L = M + 1;
@@ -30,7 +30,7 @@ public class Main {
         R = M - 1;
       }
     }
-
+     
     if(determination(L)) maxBudget = L;
   }
 
