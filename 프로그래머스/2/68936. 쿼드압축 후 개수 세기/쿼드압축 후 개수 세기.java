@@ -16,8 +16,8 @@ class Solution {
             return ;
         }
         
-        quad(arr, x, y, size/2);
-        quad(arr, x, y + size/2, size / 2);
+        quad(arr, x, y, size / 2);
+        quad(arr, x, y + size / 2, size / 2);
         quad(arr, x + size / 2, y, size / 2);
         quad(arr, x + size / 2, y + size / 2, size / 2);
     }
